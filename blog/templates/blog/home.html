@@ -1,0 +1,15 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form method="POST">{%csrf_token%}
+			<h1>{{username}}'s Blog</h1>
+			<div>
+				{{form.post}}
+			</div>
+			<div>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</body>
+</html>
