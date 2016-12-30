@@ -26,11 +26,14 @@ Create a virtual environment install the package listed in requirements.txt
   username:- joseph
   password:- test_1234
   
- ## Endpoints
+  
+## Endpoints
  
  1) http://127.0.0.1:8000/joseph/
+ 
       Allowes user joseph to post, Lists all posts of user joseph
  2) http://127.0.0.1:8000/admin/
+ 
       Admin view
 
 
