@@ -19,5 +19,5 @@ from views import BlogView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^(?P<username>[^\s/]+)/',BlogView.as_view())
+    url(r'^(?P<username>[^\s/]+)', BlogView.as_view()),
 ]
